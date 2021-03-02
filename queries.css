@@ -1,0 +1,76 @@
+@media screen and (max-width: 900px) {
+  .folder {
+    height: 9.5rem;
+    padding-right: 5rem;
+  }
+  .doc {
+    margin-top: 40px;
+  }
+  .folder2 {
+    height: 7.2rem;
+    width: 20rem;
+  }
+  .scroll {
+    width: 20rem;
+  }
+  .pink-scroll {
+    width: 15rem;
+  }
+  .pointer {
+    left: 14.3rem;
+  }
+  .speech-bubble {
+    transform: translate(115%, -110%);
+  }
+}
+@media screen and (max-width: 715px) {
+  .folder {
+    height: 11rem;
+    padding-right: 2rem;
+  }
+  .folder2 {
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  body {
+    background-image: url(/images/bg-mobile.png);
+    background-size: 100%;
+  }
+  section {
+    flex-direction: column;
+  }
+  .folder {
+    width: 17rem;
+    height: 8rem;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .folder {
+    height: 8rem;
+    margin-bottom: 0rem;
+  }
+  .folder2 {
+    height: 6.5rem;
+    width: 16rem;
+    margin-right: 55px;
+    margin-top: 0.2rem;
+  }
+  .speech-bubble {
+    top: 11.5rem;
+    right: 8rem;
+  }
+  .speech-bubble::after {
+    display: none;
+  }
+  .scroll {
+    width: 16rem;
+  }
+  .pink-scroll {
+    width: 12rem;
+  }
+  .pointer {
+    left: 11.3rem;
+  }
+}
